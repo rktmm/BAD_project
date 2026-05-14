@@ -25,7 +25,7 @@ cd /Data/Users/ehillman/Project_371/HumanN3_tables/hmn3_genefamily_abundance_fil
 source /apps/anaconda3/etc/profile.d/conda.sh
 conda activate Humann3
 
-
+# use this (RM )
 #Join all gene family and pathway abudance files
 #humann_join_tables --input hmn3_output --output humann_pathabundance.tsv --file_name pathabundance
 #humann_join_tables --input hmn3_output --output humann_genefamilies.tsv --file_name genefamilies
