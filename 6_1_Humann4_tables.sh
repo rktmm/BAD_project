@@ -1,17 +1,9 @@
 #!/bin/bash
-#SBATCH --partition WORK
-#SBATCH -D /home/AD/ehillman/
-#SBATCH -n 16
-#SBATCH --mem-per-cpu 8G
-#SBATCH -t 168:00:00
 
-
-# Script for Manipulating HUMAnN3 output tables
-
+# Script for Manipulating HumanN4 output tables
 
 # notes:
 #       - this script groups reads into functional genes 
-
 
 # Navigate to FOLDER containing FOLDER with HumanN3 output .tsv files
 cd /Data/Users/ehillman/Project_371/HumanN3_tables/hmn3_genefamily_abundance_files/
